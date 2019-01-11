@@ -48,7 +48,7 @@
   import Contact from '@/components/Home/Contact'
   import Navbar from '@/components/Home/Navbar'
   import CsFooter from '@/components/Home/Footer'
-  import Faq from '@/Components/Home/FAQ'
+  // import Faq from '@/Components/Home/FAQ'
   export default {
     name: 'Home',
     methods: {},
@@ -64,8 +64,8 @@
       Venue,
       Contact,
       Navbar,
-      CsFooter,
-      Faq
+      CsFooter
+      // Faq
     }
   }
 </script>
