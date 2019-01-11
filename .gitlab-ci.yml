@@ -6,12 +6,12 @@ pages:
     - node_modules/
 
   script:
-  - yarn install
-  - yarn run build
+  - npm install
+  - npm run build
 
   artifacts:
     paths:
-    - public
+    - dist
   
   only:
   - master
