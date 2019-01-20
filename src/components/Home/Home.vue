@@ -18,6 +18,11 @@
         </div> -->
         <div class="row">
           <div class="col-md-12">
+            <h1 class="text-white material-icons">
+                school
+            </h1>
+          </div>
+          <div class="col-md-12">
             <h1 class="text-white">
               IST Research Internship 2019
             </h1>
@@ -75,7 +80,7 @@
     height: 100vh;
     font-size: 1.25rem;
     /* background: linear-gradient(to bottom, #fff 0%, #f0f0f0 100%); */
-    background-image: url('../../assets/bg-hero.png');
+    background-image: url('../../assets/bg-hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
