@@ -58,12 +58,10 @@
     font-weight: 600;
     height: 100vh;
     font-size: 1.25rem;
-    /* background: linear-gradient(to bottom, #fff 0%, #f0f0f0 100%); */
     background-image: url('../../assets/bg-hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* background-clip: border-box; */
   }
 
   .header-jumbotron h1 {
@@ -77,29 +75,6 @@
     .header-jumbotron h1 {
       font-size: 5rem;
     }
-  }
-
-  .container-logo {
-    width: 100%;
-    padding-bottom: 10%;
-  }
-
-  .img-logo {
-    margin-bottom: .75vh;
-    max-height: 30vh;
-  }
-
-  .img-separator {
-    margin: 2vh 0;
-    max-height: 5vh;
-    max-width: 10vh;
-  }
-
-  .img-hero-bg {
-    position: absolute;
-    width: 100%;
-    bottom: -7.5vh;
-    opacity: .75;
   }
 
   .bg-stripe:nth-of-type(odd) {
