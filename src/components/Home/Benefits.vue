@@ -5,23 +5,11 @@
         <div class="col-lg-12 mx-auto">
           <h2>Benefits</h2>
         </div>
-        <!-- <div class="col-lg-6 text-right"> -->
-        <!-- <h2><a href="https://goo.gl/forms/r2Tlkbrq8mTWzDiy2">Register now <i class="fa fa-external-link"></i></a></h2> -->
-        <!-- </div> -->
-        <div class="col-lg-6 col-md-12 text-center card-speaker" v-for="speaker in speakers" v-bind:key="speaker.name">
-          <!-- <a class="img" :href="speaker.link" target="_blank"> -->
-            <!-- <div class="img-overlay"><i class="fa fa-external-link"></i></div> -->
-            <!-- <img class="img-speaker" :src="speaker.imageSrc"> -->
-            <span class="aoi-icon fa" :class="speaker.iconName"></span>
-          <!-- </a> -->
+        <div class="col-lg-6 col-md-12 text-center card-benefit" v-for="benefit in benefits" v-bind:key="benefit.name">
+          <span class="aoi-icon fa" :class="benefit.iconName"></span>
           <div>
-            <!-- <small>{{speaker.title}}</small> -->
-            <h3>{{speaker.name}}</h3>
-            <h6>{{speaker.bio}}</h6>
-            <!-- <small>FROM</small>
-            <h6>{{speaker.university}}</h6>
-            <small>ON THE TOPIC OF</small>
-            <h6>{{speaker.topic}}</h6> -->
+            <h3>{{benefit.name}}</h3>
+            <h6>{{benefit.description}}</h6>
           </div>
         </div>
       </div>
@@ -32,30 +20,30 @@
 export default {
   data () {
     return {
-      speakers: [
+      benefits: [
         {
           name: 'GPU Compute Credits',
-          bio: '',
+          description: '',
           iconName: 'fa-server'
         },
         {
           name: 'Gym Access',
-          bio: '',
+          description: '',
           iconName: 'fa-link'
         },
         {
           name: 'Salary (THB20,000/mo.)',
-          bio: '',
+          description: '',
           iconName: 'fa-money'
         },
         {
           name: 'Free Accommodation',
-          bio: '',
+          description: '',
           iconName: 'fa-home'
         },
         {
           name: 'Free Weekly Transportation to/from Bangkok',
-          bio: '',
+          description: '',
           iconName: 'fa-bus'
         }
       ]
@@ -107,21 +95,21 @@ export default {
     font-size: 24px;
   }
 
-  .card-speaker {
+  .card-benefit {
     padding: 30px;
     float: none;
     margin: 0 auto;
   }
 
-  .card-speaker small {
+  .card-benefit small {
     font-size: 120%;
   }
 
-  .card-speaker small, .card-speaker h3 {
+  .card-benefit small, .card-benefit h3 {
     font-weight: 600;
   }
 
-  #speaker {
+  #benefit {
     padding-bottom: 30px;
   }
 </style>

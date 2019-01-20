@@ -18,7 +18,7 @@
         </div> -->
         <div class="row">
           <div class="col-md-12">
-            <h1 class="text-white material-icons">
+            <h1 class="material-icons md-48 text-white">
                 school
             </h1>
           </div>
@@ -29,13 +29,11 @@
           </div>
         </div>
       </div>
-      <!-- <div class="div-scroll-down"></div> -->
-      <!-- <img class="img-hero-bg" src="../../assets/line_header.svg"> -->
     </div>
     <key-dates class="bg-stripe"></key-dates>
     <!-- <announcements class="bg-stripe"></announcements> -->
     <speakers class="bg-stripe"></speakers>
-    <registration class="bg-stripe"></registration>
+    <benefits class="bg-stripe"></benefits>
     <submission class="bg-stripe"></submission>
     <!-- <venue class="bg-stripe"></venue> -->
     <contact class="bg-stripe"></contact>
@@ -47,7 +45,7 @@
   import KeyDates from '@/components/Home/KeyDates'
   import Announcements from '@/components/Home/Announcements'
   import Speakers from '@/components/Home/Speakers'
-  import Registration from '@/components/Home/Registration'
+  import Benefits from '@/components/Home/Benefits'
   import Submission from '@/components/Home/Submission'
   import Venue from '@/components/Home/Venue'
   import Contact from '@/components/Home/Contact'
@@ -60,7 +58,7 @@
       KeyDates,
       Announcements,
       Speakers,
-      Registration,
+      Benefits,
       Submission,
       Venue,
       Contact,
