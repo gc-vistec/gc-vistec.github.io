@@ -23,14 +23,10 @@
     </div>
     <key-dates class="bg-stripe"></key-dates>
     <!-- <announcements class="bg-stripe"></announcements> -->
-    <!-- <committee class="bg-stripe"></committee> -->
-    <!-- <program class="bg-stripe"></program> -->
     <speakers class="bg-stripe"></speakers>
-    <!-- <accommodation class="bg-stripe"></accommodation> -->
     <registration class="bg-stripe"></registration>
     <submission class="bg-stripe"></submission>
     <!-- <venue class="bg-stripe"></venue> -->
-    <!-- <faq class="bg-stripe"></faq> -->
     <contact class="bg-stripe"></contact>
     <cs-footer></cs-footer>
   </div>
@@ -39,34 +35,26 @@
 <script>
   import KeyDates from '@/components/Home/KeyDates'
   import Announcements from '@/components/Home/Announcements'
-  import Committee from '@/components/Home/Committee'
-  import Program from '@/components/Home/Program'
   import Speakers from '@/components/Home/Speakers'
-  import Accommodation from '@/components/Home/Accommodation'
   import Registration from '@/components/Home/Registration'
   import Submission from '@/components/Home/Submission'
   import Venue from '@/components/Home/Venue'
   import Contact from '@/components/Home/Contact'
   import Navbar from '@/components/Home/Navbar'
   import CsFooter from '@/components/Home/Footer'
-  // import Faq from '@/Components/Home/FAQ'
   export default {
     name: 'Home',
     methods: {},
     components: {
       KeyDates,
       Announcements,
-      Committee,
-      Program,
       Speakers,
-      Accommodation,
       Registration,
       Submission,
       Venue,
       Contact,
       Navbar,
       CsFooter
-      // Faq
     }
   }
 </script>
