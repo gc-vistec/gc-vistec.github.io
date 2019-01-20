@@ -16,7 +16,13 @@
             industry collaborative research
           </div>
         </div> -->
-        <h1 class="text-white">IST Research Internship 2019</h1>
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="text-white">
+              IST Research Internship 2019
+            </h1>
+          </div>
+        </div>
       </div>
       <!-- <div class="div-scroll-down"></div> -->
       <!-- <img class="img-hero-bg" src="../../assets/line_header.svg"> -->
