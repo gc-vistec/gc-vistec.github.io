@@ -1,33 +1,127 @@
 <template>
-  <section class="lead" id="registration">
+  <section class="lead" id="benefits">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 mx-auto">
-          <h2>REGISTRATION</h2>
+        <div class="col-lg-12 mx-auto">
+          <h2>Benefits</h2>
         </div>
-        <div class="col-lg-6 text-right">
-          <!-- <h2><router-link to="/forms/registration">Register now <i class="fa fa-external-link"></i></router-link></h2> -->
-        <h2><a href="https://goo.gl/forms/r2Tlkbrq8mTWzDiy2">Register now <i class="fa fa-external-link"></i></a></h2>
-        </div>
-        <div class="col-lg-12 justify-content-md-center">
-          Free registration for all participant. There will be <b>60</b> seats available. Registration form in on this website, you can access by click on "Register now".
+        <!-- <div class="col-lg-6 text-right"> -->
+        <!-- <h2><a href="https://goo.gl/forms/r2Tlkbrq8mTWzDiy2">Register now <i class="fa fa-external-link"></i></a></h2> -->
+        <!-- </div> -->
+        <div class="col-lg-6 col-md-12 text-center card-speaker" v-for="speaker in speakers" v-bind:key="speaker.name">
+          <!-- <a class="img" :href="speaker.link" target="_blank"> -->
+            <!-- <div class="img-overlay"><i class="fa fa-external-link"></i></div> -->
+            <!-- <img class="img-speaker" :src="speaker.imageSrc"> -->
+            <span class="aoi-icon fa" :class="speaker.iconName"></span>
+          <!-- </a> -->
+          <div>
+            <!-- <small>{{speaker.title}}</small> -->
+            <h3>{{speaker.name}}</h3>
+            <h6>{{speaker.bio}}</h6>
+            <!-- <small>FROM</small>
+            <h6>{{speaker.university}}</h6>
+            <small>ON THE TOPIC OF</small>
+            <h6>{{speaker.topic}}</h6> -->
           </div>
-          <div class="col-lg-12">
-          <h3>Notes</h3>
-          <ul class="registration">
-            <li>Priority of registration base on first come first serve</li>
-            <li>People who register after the first 60 seats will be enroll in waiting list</li>
-            <li>Waiting list will get notify when the are seat available</li>
-          </ul>
-          <h3>Benefits of registration</h3>
-          <ul class="registration">
-            <li>Symposium materials</li>
-            <li>Access to all sessions</li>
-            <li>Coffee breaks and lunches</li>
-            <li>Transportation</li>
-          </ul>
         </div>
       </div>
     </div>
   </section>
 </template>
+<script>
+export default {
+  data () {
+    return {
+      speakers: [
+        {
+          name: 'GPU Compute Credits',
+          bio: '',
+          iconName: 'fa-server'
+        },
+        {
+          name: 'Gym Access',
+          bio: '',
+          iconName: 'fa-link'
+        },
+        {
+          name: 'Salary (THB20,000/mo.)',
+          bio: '',
+          iconName: 'fa-money'
+        },
+        {
+          name: 'Free Accommodation',
+          bio: '',
+          iconName: 'fa-home'
+        },
+        {
+          name: 'Free Weekly Transportation to/from Bangkok',
+          bio: '',
+          iconName: 'fa-bus'
+        }
+      ]
+    }
+  }
+}
+</script>
+<style scoped>
+  .img {
+    border-radius: 100%;
+    display: inline-block;
+    flex: 0 0 200px;
+    height: 200px;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    width: 200px;
+  }
+
+  .aoi-icon {
+    font-size: 6rem;
+    color: rgb(131, 131, 131);
+    margin-bottom: 1rem;
+  }
+
+  .img img {
+    height: 100%;
+  }
+
+  .img-overlay {
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: opacity 0.25s;
+    z-index: 1;
+  }
+
+  .img-overlay:hover {
+    opacity: 1;
+    background-color: rgba(46,204,113,0.4);
+    background: linear-gradient(65deg, rgba(88, 46, 145, 0.4), rgba(160, 34, 58, 0.4));
+    color: #fafafa;
+    font-size: 24px;
+  }
+
+  .card-speaker {
+    padding: 30px;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .card-speaker small {
+    font-size: 120%;
+  }
+
+  .card-speaker small, .card-speaker h3 {
+    font-weight: 600;
+  }
+
+  #speaker {
+    padding-bottom: 30px;
+  }
+</style>

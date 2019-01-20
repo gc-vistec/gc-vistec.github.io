@@ -3,32 +3,33 @@
     <navbar></navbar>
     <div class="header-jumbotron text-center">
       <div class="container-logo text-center">
-        <div>
+        <!-- <div>
           <img class="img-logo" src="../../assets/logo_istfr.svg" alt="Logo">
-        </div>
-        <div>
+        </div> -->
+        <!-- <div>
           <img class="img-separator" src="../../assets/separator.svg">
-        </div>
-        <div class="row">
+        </div> -->
+        <!-- <div class="row">
           <div class="col-md-12">
             Promoting academic excellence in
             Computer Science through academic
             industry collaborative research
           </div>
-        </div>
+        </div> -->
+        <h1 class="text-white">IST Research Internship 2019</h1>
       </div>
-      <div class="div-scroll-down"></div>
-      <img class="img-hero-bg" src="../../assets/line_header.svg">
+      <!-- <div class="div-scroll-down"></div> -->
+      <!-- <img class="img-hero-bg" src="../../assets/line_header.svg"> -->
     </div>
     <key-dates class="bg-stripe"></key-dates>
-    <announcements class="bg-stripe"></announcements>
-    <committee class="bg-stripe"></committee>
-    <program class="bg-stripe"></program>
+    <!-- <announcements class="bg-stripe"></announcements> -->
+    <!-- <committee class="bg-stripe"></committee> -->
+    <!-- <program class="bg-stripe"></program> -->
     <speakers class="bg-stripe"></speakers>
     <!-- <accommodation class="bg-stripe"></accommodation> -->
     <registration class="bg-stripe"></registration>
     <submission class="bg-stripe"></submission>
-    <venue class="bg-stripe"></venue>
+    <!-- <venue class="bg-stripe"></venue> -->
     <!-- <faq class="bg-stripe"></faq> -->
     <contact class="bg-stripe"></contact>
     <cs-footer></cs-footer>
@@ -79,12 +80,24 @@
     font-weight: 600;
     height: 100vh;
     font-size: 1.25rem;
-    background: linear-gradient(to bottom, #fff 0%, #f0f0f0 100%)
+    /* background: linear-gradient(to bottom, #fff 0%, #f0f0f0 100%); */
+    background-image: url('../../assets/bg-hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-clip: border-box; */
+  }
+
+  .header-jumbotron h1 {
+    font-size: 3rem;
   }
 
   @media (min-width: 992px) {
     .header-jumbotron {
       padding: 50px 20% 30px;
+    }
+    .header-jumbotron h1 {
+      font-size: 5rem;
     }
   }
 

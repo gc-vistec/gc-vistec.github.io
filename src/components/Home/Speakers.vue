@@ -1,23 +1,24 @@
 <template>
-  <section id="speakers">
+  <section id="areas-of-interest">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 mx-auto">
-          <h2>SPEAKERS</h2>
+          <h2>Areas of Interest</h2>
         </div>
         <div class="col-lg-6 col-md-12 text-center card-speaker" v-for="speaker in speakers" v-bind:key="speaker.name">
-            <a class="img" :href="speaker.link" target="_blank">
-              <div class="img-overlay"><i class="fa fa-external-link"></i></div>
-              <img class="img-speaker" :src="speaker.imageSrc">
-            </a>
+            <!-- <a class="img" :href="speaker.link" target="_blank"> -->
+              <!-- <div class="img-overlay"><i class="fa fa-external-link"></i></div> -->
+              <!-- <img class="img-speaker" :src="speaker.imageSrc"> -->
+              <span class="aoi-icon fa" :class="speaker.iconName"></span>
+            <!-- </a> -->
             <div>
-              <small>{{speaker.title}}</small>
+              <!-- <small>{{speaker.title}}</small> -->
               <h3>{{speaker.name}}</h3>
               <h6>{{speaker.bio}}</h6>
-              <small>FROM</small>
+              <!-- <small>FROM</small>
               <h6>{{speaker.university}}</h6>
               <small>ON THE TOPIC OF</small>
-              <h6>{{speaker.topic}}</h6>
+              <h6>{{speaker.topic}}</h6> -->
             </div>
           </div>
       </div>
@@ -30,59 +31,40 @@ export default {
     return {
       speakers: [
         {
-          title: 'Prof. Dr.',
-          name: 'Dusit Niyato',
-          bio: 'IEEE Fellow, 19755 citations, 67 h-index, Wireless Communications, Mobile Computing, Cognitive Communications',
-          topic: 'Cultivating a culture of academic excellence: What can we learn from Singapore Context?',
-          university: 'Nanyang Technological University, Singapore',
-          imageSrc: require('../../assets/speakers/dr_dusit_niyato.jpg'),
-          link: 'http://www.ntu.edu.sg/home/dniyato/'
+          name: 'Biomedical and Health Informatics',
+          bio: '',
+          iconName: 'fa-stethoscope'
         },
         {
-          title: 'Dr.',
-          name: 'Supasorn Suwajanakorn',
-          bio: 'Former Research Resident at Google Brain, Computer Vision, Synthesizing Obama: Learning Lip Sync from Audio',
-          topic: 'TBA',
-          university: 'VISTEC, Thailand',
-          imageSrc: require('../../assets/speakers/dr_supasorn_suwajanakorn.jpg'),
-          link: 'http://www.supasorn.com/'
+          name: 'Brain-Computer Interactions',
+          bio: '',
+          iconName: 'fa-link'
         },
         {
-          title: 'Asst. Prof. Dr.',
-          name: 'Thanawin Rakthanmanon',
-          bio: 'Data Mining, Machine Learning, Decision Support System',
-          topic: 'TBA',
-          university: 'Kasetsart University, Thailand',
-          imageSrc: require('../../assets/speakers/dr_thanawin_rakthanmanon.jpg'),
-          link: 'https://www.cpe.ku.ac.th/?page_id=1932'
+          name: 'Computer Vision',
+          bio: '',
+          iconName: 'fa-eye'
         },
         {
-          title: 'Assoc. Prof. Dr.',
-          name: 'Danupon Nanongkai',
-          bio: 'Theoretical Computer Science, Graph Algorithms',
-          topic: 'TBA',
-          university: 'KTH Royal Institute of Technology, Sweden',
-          imageSrc: require('../../assets/speakers/dr_danupon_nanongkai.jpg'),
-          link: 'https://sites.google.com/site/dannanongkai/'
+          name: 'Drug-driven Drug Discovery',
+          bio: '',
+          iconName: 'fa-flask'
         },
         {
-          title: 'Dr.',
-          name: 'Wittawat Jitkrittum',
-          bio: 'Kernel methods, Nonparametric statistical tests, Bayesian inference, Generative models',
-          topic: 'TBA',
-          university: 'Max Planck Institutes for Intelligent Systems, Germany',
-          imageSrc: require('../../assets/speakers/dr_wittawat_jitkrittum.jpg'),
-          link: 'http://wittawat.com/'
+          name: 'Deep Learning',
+          bio: '',
+          iconName: 'fa-cogs'
+        },
+        {
+          name: 'Robotics',
+          bio: '',
+          iconName: 'fa-android'
+        },
+        {
+          name: 'Scalable Data Mining and Machine Learning',
+          bio: '',
+          iconName: 'fa-database'
         }
-        // {
-        //   title: 'Dr.',
-        //   name: 'Krikamol Muandet',
-        //   bio: 'Statistical learning theory, kernel methods, Bayesian nonparametric, large-scale learning, and counterfactual prediction',
-        //   topic: 'TBA',
-        //   university: 'Max Planck Institutes for Intelligent Systems, Germany',
-        //   imageSrc: require('../../assets/speakers/dr_krikamol_muandet.jpg'),
-        //   link: 'http://krikamol.org/'
-        // }
       ]
     }
   }
@@ -98,6 +80,12 @@ export default {
     overflow: hidden;
     position: relative;
     width: 200px;
+  }
+
+  .aoi-icon {
+    font-size: 6rem;
+    color: rgb(131, 131, 131);
+    margin-bottom: 1rem;
   }
 
   .img img {

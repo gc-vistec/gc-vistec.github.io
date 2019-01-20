@@ -4,7 +4,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 mx-auto text-center">
-            <h2>KEY DATES</h2>
+            <h2>Key Dates</h2>
           </div>
         </div>
       </div>
@@ -13,9 +13,9 @@
         <div class="demo-card demo-card--step1">
           <div class="head">
             <div class="number-box">
-              <span>18 Nov</span>
+              <span>11 Jan</span>
             </div>
-            <h2><span class="small">Undergrad thesis</span>submission deadline</h2>
+            <h2><span class="small">Open for</span>application</h2>
           </div>
           <div class="body">
             <div class="holder"></div>
@@ -25,9 +25,9 @@
         <div class="demo-card demo-card--step2">
           <div class="head">
             <div class="number-box">
-              <span>25 Nov</span>
+              <span>15 Feb</span>
             </div>
-            <h2><span class="small">Thesis</span>authors notification</h2>
+            <h2><span class="small">Deadline for</span>application</h2>
           </div>
           <div class="body">
             <div class="holder"></div>
@@ -37,9 +37,9 @@
         <div class="demo-card demo-card--step3">
           <div class="head">
             <div class="number-box">
-              <span>13 Dec</span>
+              <span>27 May</span>
             </div>
-            <h2><span class="small">Deadline for</span>registration</h2>
+            <h2><span class="small">Beginning of</span>internship</h2>
           </div>
           <div class="body">
             <div class="holder"></div>
@@ -49,9 +49,9 @@
         <div class="demo-card demo-card--step4">
           <div class="head">
             <div class="number-box">
-              <span>20 Dec</span>
+              <span>19 Jul</span>
             </div>
-              <h2><span class="small">Gather for the</span>Symposium Day</h2>
+              <h2><span class="small">The end of</span>internship</h2>
           </div>
           <div class="body">
             <div class="holder"></div>

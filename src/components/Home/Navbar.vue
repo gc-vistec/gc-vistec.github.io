@@ -12,30 +12,30 @@
           <li class="nav-item">
             <a class="scrollactive-item nav-link js-scroll-trigger" href="#key-dates" data-toggle="collapse" data-target=".navbar-collapse.show">KEY DATES</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="scrollactive-item nav-link js-scroll-trigger" href="#announcements" data-toggle="collapse" data-target=".navbar-collapse.show">ANNOUNCEMENTS</a>
-          </li>
-          <li class="nav-item">
+          </li> -->
+          <!-- <li class="nav-item">
             <a class="scrollactive-item nav-link js-scroll-trigger" href="#committee" data-toggle="collapse" data-target=".navbar-collapse.show">COMMITTEE</a>
-          </li>
-          <li class="nav-item">
+          </li> -->
+          <!-- <li class="nav-item">
             <a class="scrollactive-item nav-link js-scroll-trigger" href="#program" data-toggle="collapse" data-target=".navbar-collapse.show">PROGRAM</a>
-          </li>
+          </li> -->
           <li class="nav-item">
-            <a class="scrollactive-item nav-link js-scroll-trigger" href="#speakers" data-toggle="collapse" data-target=".navbar-collapse.show">SPEAKERS</a>
+            <a class="scrollactive-item nav-link js-scroll-trigger" href="#areas-of-interest" data-toggle="collapse" data-target=".navbar-collapse.show">AREAS OF INTEREST</a>
           </li>
           <!-- <li class="nav-item">
             <a class="scrollactive-item nav-link js-scroll-trigger" href="#accommodation" data-toggle="collapse" data-target=".navbar-collapse.show">ACCOMMODATION</a>
           </li> -->
           <li class="nav-item">
-            <a class="scrollactive-item nav-link js-scroll-trigger" href="#registration" data-toggle="collapse" data-target=".navbar-collapse.show">REGISTRATION</a>
+            <a class="scrollactive-item nav-link js-scroll-trigger" href="#benefits" data-toggle="collapse" data-target=".navbar-collapse.show">BENEFITS</a>
           </li>
           <li class="nav-item">
-            <a class="scrollactive-item nav-link js-scroll-trigger" href="#submission" data-toggle="collapse" data-target=".navbar-collapse.show">SUBMISSION</a>
+            <a class="scrollactive-item nav-link js-scroll-trigger" href="#application" data-toggle="collapse" data-target=".navbar-collapse.show">APPLICATION</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="scrollactive-item nav-link js-scroll-trigger" href="#venue" data-toggle="collapse" data-target=".navbar-collapse.show">VENUE</a>
-          </li>
+          </li> -->
           <!-- <li class="nav-item">
             <a class="scrollactive-item nav-link js-scroll-trigger" href="#faq" data-toggle="collapse" data-target=".navbar-collapse.show">FAQ</a>
           </li> -->
