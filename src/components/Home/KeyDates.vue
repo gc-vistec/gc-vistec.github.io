@@ -27,7 +27,7 @@
             <div class="number-box">
               <span>15 Feb</span>
             </div>
-            <h2><span class="small">Deadline for</span>application</h2>
+            <h2><span class="small">Beginning of</span>application reviews</h2>
           </div>
           <div class="body">
             <div class="holder"></div>
