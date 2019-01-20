@@ -26,10 +26,7 @@
               Cover letter
             </li>
             <li>
-              Resume or Curriculum Vitae
-            </li>
-            <li>
-              Up-to-date resume
+              Up-to-date résumé or curriculum vitae
             </li>
           </ul>
         </div>
