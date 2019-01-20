@@ -3,19 +3,6 @@
     <navbar></navbar>
     <div class="header-jumbotron text-center">
       <div class="container-logo text-center">
-        <!-- <div>
-          <img class="img-logo" src="../../assets/logo_istfr.svg" alt="Logo">
-        </div> -->
-        <!-- <div>
-          <img class="img-separator" src="../../assets/separator.svg">
-        </div> -->
-        <!-- <div class="row">
-          <div class="col-md-12">
-            Promoting academic excellence in
-            Computer Science through academic
-            industry collaborative research
-          </div>
-        </div> -->
         <div class="row">
           <div class="col-md-12">
             <h1 class="material-icons md-48 text-white">
@@ -31,11 +18,9 @@
       </div>
     </div>
     <key-dates class="bg-stripe"></key-dates>
-    <!-- <announcements class="bg-stripe"></announcements> -->
     <areas-of-interest class="bg-stripe"></areas-of-interest>
     <benefits class="bg-stripe"></benefits>
     <application class="bg-stripe"></application>
-    <!-- <venue class="bg-stripe"></venue> -->
     <contact class="bg-stripe"></contact>
     <cs-footer></cs-footer>
   </div>
@@ -43,11 +28,9 @@
 
 <script>
   import KeyDates from '@/components/Home/KeyDates'
-  import Announcements from '@/components/Home/Announcements'
   import AreasOfInterest from '@/components/Home/AreasOfInterest'
   import Benefits from '@/components/Home/Benefits'
   import Application from '@/components/Home/Application'
-  import Venue from '@/components/Home/Venue'
   import Contact from '@/components/Home/Contact'
   import Navbar from '@/components/Home/Navbar'
   import CsFooter from '@/components/Home/Footer'
@@ -56,11 +39,9 @@
     methods: {},
     components: {
       KeyDates,
-      Announcements,
       AreasOfInterest,
       Benefits,
       Application,
-      Venue,
       Contact,
       Navbar,
       CsFooter
