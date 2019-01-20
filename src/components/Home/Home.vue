@@ -32,7 +32,7 @@
     </div>
     <key-dates class="bg-stripe"></key-dates>
     <!-- <announcements class="bg-stripe"></announcements> -->
-    <speakers class="bg-stripe"></speakers>
+    <areas-of-interest class="bg-stripe"></areas-of-interest>
     <benefits class="bg-stripe"></benefits>
     <submission class="bg-stripe"></submission>
     <!-- <venue class="bg-stripe"></venue> -->
@@ -44,7 +44,7 @@
 <script>
   import KeyDates from '@/components/Home/KeyDates'
   import Announcements from '@/components/Home/Announcements'
-  import Speakers from '@/components/Home/Speakers'
+  import AreasOfInterest from '@/components/Home/AreasOfInterest'
   import Benefits from '@/components/Home/Benefits'
   import Submission from '@/components/Home/Submission'
   import Venue from '@/components/Home/Venue'
@@ -57,7 +57,7 @@
     components: {
       KeyDates,
       Announcements,
-      Speakers,
+      AreasOfInterest,
       Benefits,
       Submission,
       Venue,
