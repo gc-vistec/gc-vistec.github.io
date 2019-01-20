@@ -30,7 +30,6 @@ export default {
         {
           title: 'Dr.',
           name: 'Sarana Nutanong',
-          imageSrc: require('../../assets/committee/dr_sarana_nutanong.png'),
           position: 'General Chairman',
           school: 'School of Information Science & Technology',
           university: 'Vidyasirimedhi Institute of Science & Technology',
@@ -39,7 +38,6 @@ export default {
         {
           title: 'Prof. Dr.',
           name: 'Chokchai  Leangsuksun',
-          imageSrc: require('../../assets/committee/dr_sarana_nutanong.png'),
           position: 'Undergraduate Thesis Program',
           school: 'School of Information Science & Technology',
           university: 'Vidyasirimedhi Institute of Science & Technology',
@@ -48,7 +46,6 @@ export default {
         {
           title: 'Prof. Dr.',
           name: 'Poramate Manoonpong',
-          imageSrc: require('../../assets/committee/dr_sarana_nutanong.png'),
           position: 'Undergraduate Thesis Program',
           school: 'School of Information Science & Technology',
           university: 'Vidyasirimedhi Institute of Science & Technology',
@@ -57,7 +54,6 @@ export default {
         {
           title: 'Dr.',
           name: 'Theerawit Wilaiprasitporn',
-          imageSrc: require('../../assets/committee/dr_sarana_nutanong.png'),
           position: 'Undergraduate Thesis Program',
           school: 'School of Information Science & Technology',
           university: 'Vidyasirimedhi Institute of Science & Technology',
