@@ -13,7 +13,7 @@
           <i class="fa fa-youtube fa-lg white-text fa-2x"></i>
         </a>
       </div>
-      <div class="footer-copyright text-center py-3">© School of Information Science and Technology | Vidyasirimedhi Institute of Science and Technology</div>
+      <div class="footer-copyright text-center py-3">© <a class="text-white" href="https://ist.vistec.ac.th">School of Information Science and Technology</a> | Vidyasirimedhi Institute of Science and Technology</div>
     </div>
   </footer>
 </template>
