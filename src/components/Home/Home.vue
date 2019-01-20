@@ -34,7 +34,7 @@
     <!-- <announcements class="bg-stripe"></announcements> -->
     <areas-of-interest class="bg-stripe"></areas-of-interest>
     <benefits class="bg-stripe"></benefits>
-    <submission class="bg-stripe"></submission>
+    <application class="bg-stripe"></application>
     <!-- <venue class="bg-stripe"></venue> -->
     <contact class="bg-stripe"></contact>
     <cs-footer></cs-footer>
@@ -46,7 +46,7 @@
   import Announcements from '@/components/Home/Announcements'
   import AreasOfInterest from '@/components/Home/AreasOfInterest'
   import Benefits from '@/components/Home/Benefits'
-  import Submission from '@/components/Home/Submission'
+  import Application from '@/components/Home/Application'
   import Venue from '@/components/Home/Venue'
   import Contact from '@/components/Home/Contact'
   import Navbar from '@/components/Home/Navbar'
@@ -59,7 +59,7 @@
       Announcements,
       AreasOfInterest,
       Benefits,
-      Submission,
+      Application,
       Venue,
       Contact,
       Navbar,

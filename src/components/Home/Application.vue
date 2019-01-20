@@ -17,7 +17,7 @@
               Cumulative GPA of at least 3.00 out of 4.00 (or equivalence in other systems)
             </li>
             <li class="font-weight-bold">
-              Must be a Thai citizen, or a holder of Thai work permit or student visa (has to be valid throughout the entire duration of the internship)
+              Must be a Thai citizen, or a holder of Thai work permit or student visa (has to remain valid throughout the entire duration of the internship)
             </li>
           </ul>
           <h3>Required documents</h3>
@@ -34,7 +34,7 @@
           </ul>
         </div>
         <div class="col-md-12 text-right">
-          <h2><a href="https://goo.gl/forms/gyV9bOPdw0UVpcPy1">Apply now <i class="fa fa-external-link"></i></a></h2>
+          <h2 class="font-weight-bold"><a href="https://goo.gl/forms/gyV9bOPdw0UVpcPy1">Apply now <i class="fa fa-external-link"></i></a></h2>
         </div>
       </div>
     </div>
