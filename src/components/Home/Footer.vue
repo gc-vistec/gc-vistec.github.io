@@ -3,7 +3,7 @@
     <div class="container">
       <div class="footer-copyright text-center py-3 div-no-padding">
         <a href="https://www.vistec.ac.th">
-          <img class="logo-vistec" src="../../assets/vistec_logo.png">
+          <img class="logo-vistec" src="../../assets/vistec-logo.png">
         </a>
         <span>|</span>
         <a class="social" href="https://www.facebook.com/Vidyasirimedhi">
