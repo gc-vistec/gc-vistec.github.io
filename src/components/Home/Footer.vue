@@ -1,7 +1,7 @@
 <template>
   <footer class="page-footer font-small text-white">  
     <div class="container">
-      <div class="footer-copyright text-center py-3 div-no-padding">
+      <!-- <div class="footer-copyright text-center py-3 div-no-padding">
         <a href="https://www.vistec.ac.th">
           <img class="logo-vistec" src="../../assets/vistec-logo.png">
         </a>
@@ -12,8 +12,8 @@
         <a class="social" href="https://www.youtube.com/channel/UCyiO-CBG4J__S83jzq3k0pQ">
           <i class="fa fa-youtube fa-lg white-text fa-2x"></i>
         </a>
-      </div>
-      <div class="footer-copyright text-center py-3">© <a class="text-white" href="https://ist.vistec.ac.th">School of Information Science and Technology</a> | Vidyasirimedhi Institute of Science and Technology</div>
+      </div> -->
+      <div class="footer-copyright text-center py-3">© <a class="text-white" href="https://www.pttgcgroup.com/">PTT Global Chemical PCL</a> | <a class="text-white" href="https://www.vistec.ac.th">Vidyasirimedhi Institute of Science and Technology</a></div>
     </div>
   </footer>
 </template>
