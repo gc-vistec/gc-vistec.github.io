@@ -20,7 +20,7 @@
 
 <style scoped>
   footer {
-    background: linear-gradient(-90deg, rgb(88, 46, 145), rgb(160, 34, 58));
+    background: linear-gradient(to right, rgb(0, 80, 147) 0%, rgb(88, 46, 145) 50%, rgb(160, 34, 58) 100%);
     color: rgba(255, 255, 255, 0.75) !important;
     font-size: small;
   }
