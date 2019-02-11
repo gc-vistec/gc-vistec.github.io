@@ -18,7 +18,6 @@
         </div>
       </div>
     </div>
-    <!-- <key-dates class="bg-stripe"></key-dates> -->
     <objectives class="bg-stripe"></objectives>
     <training-scheme class="bg-stripe"></training-scheme>
     <curriculum class="bg-stripe"></curriculum>
