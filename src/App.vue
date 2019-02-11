@@ -18,7 +18,6 @@
 <style>
   #app {
     font-family: 'K2D', sans-serif;
-    /* font-weight: 600; */
     border-radius: 0 !important;
   }
 
