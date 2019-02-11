@@ -18,9 +18,9 @@
         </div>
       </div>
     </div>
-    <key-dates class="bg-stripe"></key-dates>
-    <areas-of-interest class="bg-stripe"></areas-of-interest>
-    <benefits class="bg-stripe"></benefits>
+    <!-- <key-dates class="bg-stripe"></key-dates> -->
+    <objectives class="bg-stripe"></objectives>
+    <training-scheme class="bg-stripe"></training-scheme>
     <application class="bg-stripe"></application>
     <contact class="bg-stripe"></contact>
     <cs-footer></cs-footer>
@@ -28,9 +28,8 @@
 </template>
 
 <script>
-  import KeyDates from '@/components/Home/KeyDates'
-  import AreasOfInterest from '@/components/Home/AreasOfInterest'
-  import Benefits from '@/components/Home/Benefits'
+  import Objectives from '@/components/Home/Objectives'
+  import TrainingScheme from '@/components/Home/TrainingScheme'
   import Application from '@/components/Home/Application'
   import Contact from '@/components/Home/Contact'
   import Navbar from '@/components/Home/Navbar'
@@ -39,9 +38,8 @@
     name: 'Home',
     methods: {},
     components: {
-      KeyDates,
-      AreasOfInterest,
-      Benefits,
+      Objectives,
+      TrainingScheme,
       Application,
       Contact,
       Navbar,

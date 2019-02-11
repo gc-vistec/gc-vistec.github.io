@@ -10,10 +10,10 @@
             <a class="scrollactive-item nav-link js-scroll-trigger" href="#page-top" data-toggle="collapse" data-target="navbar-collapse.show"><i class="fa fa-arrow-up"></i></a>
           </li>
           <li class="nav-item">
-            <a class="scrollactive-item nav-link js-scroll-trigger" href="#key-dates" data-toggle="collapse" data-target=".navbar-collapse.show">KEY DATES</a>
+            <a class="scrollactive-item nav-link js-scroll-trigger" href="#objectives" data-toggle="collapse" data-target=".navbar-collapse.show">จุดประสงค์</a>
           </li>
           <li class="nav-item">
-            <a class="scrollactive-item nav-link js-scroll-trigger" href="#areas-of-interest" data-toggle="collapse" data-target=".navbar-collapse.show">AREAS OF INTEREST</a>
+            <a class="scrollactive-item nav-link js-scroll-trigger" href="#training-scheme" data-toggle="collapse" data-target=".navbar-collapse.show">รูปแบบการฝึกอบรม</a>
           </li>
           <li class="nav-item">
             <a class="scrollactive-item nav-link js-scroll-trigger" href="#benefits" data-toggle="collapse" data-target=".navbar-collapse.show">BENEFITS</a>
