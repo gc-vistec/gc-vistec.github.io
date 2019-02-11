@@ -44,8 +44,8 @@
 
   .navbar-dark .navbar-nav .nav-link {
     color: rgba(255, 255, 255, .6);
-    font-size: .725rem;
-    font-weight: 800;
+    font-size: .9rem;
+    font-weight: 700;
   }
 
   .is-active, .navbar-dark .navbar-nav .nav-link:hover {
