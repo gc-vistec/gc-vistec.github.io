@@ -62,6 +62,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background: linear-gradient(
+      to right, 
+      rgba(0, 117, 212, .4) 0%, 
+      rgba(138, 74, 228, .4) 50%,
+      rgba(230, 50, 83, .4) 100%);
   }
 
   .logos {
