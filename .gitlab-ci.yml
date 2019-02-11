@@ -1,17 +1,11 @@
-image: node:10.14.0
+image: alpine:latest
 
 pages:
-  # cache:
-  #   paths:
-  #   - node_modules/
-
+  stage: deploy
   script:
-  - yarn install
-  - yarn run build
-
+  - echo 'Nothing to do...'
   artifacts:
     paths:
     - public
-  
   only:
   - master
