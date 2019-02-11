@@ -1,9 +1,9 @@
 <template>
-  <section id="application" class="lead">
+  <section id="requirements" class="lead">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h2>Application</h2>
+          <h2>คุณสมบัติของผู้สมัคร</h2>
         </div>
         <div class="col-md-6 text-right">
         </div>

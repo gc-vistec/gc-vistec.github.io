@@ -16,7 +16,7 @@
             <a class="scrollactive-item nav-link js-scroll-trigger" href="#training-scheme" data-toggle="collapse" data-target=".navbar-collapse.show">รูปแบบการฝึกอบรม</a>
           </li>
           <li class="nav-item">
-            <a class="scrollactive-item nav-link js-scroll-trigger" href="#benefits" data-toggle="collapse" data-target=".navbar-collapse.show">BENEFITS</a>
+            <a class="scrollactive-item nav-link js-scroll-trigger" href="#curriculum" data-toggle="collapse" data-target=".navbar-collapse.show">หลักสูตร</a>
           </li>
           <li class="nav-item">
             <a class="scrollactive-item nav-link js-scroll-trigger" href="#application" data-toggle="collapse" data-target=".navbar-collapse.show">APPLICATION</a>

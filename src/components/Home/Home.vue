@@ -21,6 +21,7 @@
     <!-- <key-dates class="bg-stripe"></key-dates> -->
     <objectives class="bg-stripe"></objectives>
     <training-scheme class="bg-stripe"></training-scheme>
+    <curriculum class="bg-stripe"></curriculum>
     <application class="bg-stripe"></application>
     <contact class="bg-stripe"></contact>
     <cs-footer></cs-footer>
@@ -30,6 +31,7 @@
 <script>
   import Objectives from '@/components/Home/Objectives'
   import TrainingScheme from '@/components/Home/TrainingScheme'
+  import Curriculum from '@/components/Home/Curriculum'
   import Application from '@/components/Home/Application'
   import Contact from '@/components/Home/Contact'
   import Navbar from '@/components/Home/Navbar'
@@ -40,6 +42,7 @@
     components: {
       Objectives,
       TrainingScheme,
+      Curriculum,
       Application,
       Contact,
       Navbar,
