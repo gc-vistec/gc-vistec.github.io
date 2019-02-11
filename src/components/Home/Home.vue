@@ -7,13 +7,14 @@
           <div class="logos col-md-12">
             <img class="gc-logo" alt="PTTGC" src="../../assets/pttgc-logo.svg">
             <span class="logo-separator">|</span>
-            <div class="horizontal-logo-separator"><img src="../../assets/horizontal-separator.svg"></div>
+            <!-- <div class="horizontal-logo-separator">img src="../../assets/horizontal-separator.svg"<div class="sep-text">|</div></div> -->
+            <div class="horizontal-logo-separator"><hr></div>
             <img class="vistec-logo" alt="VISTEC" src="../../assets/vistec-logo-no-subtitle.svg">
           </div>
-          <div class="col-md-12">
-            <h1 class="">
-              lorem ipsum dolor sit amet
-            </h1>
+          <div class="jumbotron-text col-md-12">
+            <h3>
+              โครงการฝึกอบรมเพื่อพัฒนาบุคลากรด้าน Data Science โดยความร่วมมือระหว่าง GC และ VISTEC
+            </h3>
           </div>
         </div>
       </div>
@@ -65,16 +66,19 @@
     background-position: center;
   }
 
-  /* .logos {
-   line-height: 4rem;
-  } */
+  .logos {
+    margin-bottom: 1rem;
+  }
 
   .logo-separator {
     /* visibility: visible; */
     font-size: 4.25rem;
-    font-weight: 100;
     opacity: .75;
     margin: 0 .5rem;
+  }
+
+  .logo-separator, .sep-text {
+    font-weight: 100;
   }
 
   .gc-logo {
@@ -93,12 +97,29 @@
 
   .horizontal-logo-separator {
     display: none;
-    margin-bottom: .5rem;
+    width: 15rem;
+    margin: 0 auto;
+    /* margin-top: .5rem;
+    margin-bottom: .7rem; */
+  }
+  
+  .horizontal-logo-separator hr {
+    border-width: .15rem;
+    border-color: #212529;
+    opacity: .6;
   }
 
-  .horizontal-logo-separator img {
+  /* .sep-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin: 0 auto;
+    font-size: 10rem;
+    font-weight: 100;
+  } */
+
+  /* .horizontal-logo-separator img {
     height: 1rem;
-  }
+  } */
 
   .header-jumbotron h1 {
     font-size: 3rem;
@@ -111,7 +132,22 @@
 
     .horizontal-logo-separator {
       display: block;
-      height: 3rem;
+    }
+
+    .gc-logo, .vistec-logo {
+      margin: 0;
+    }
+
+    .vistec-logo {
+      margin-top: -.95rem;
+    }
+
+    .logos {
+      margin-bottom: 3rem;
+    }
+
+    .jumbotron-text h3 {
+      font-size: 1.4rem !important;
     }
 
     /* .header-jumbotron {
