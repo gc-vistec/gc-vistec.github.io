@@ -22,8 +22,8 @@
     <objectives class="bg-stripe"></objectives>
     <training-scheme class="bg-stripe"></training-scheme>
     <curriculum class="bg-stripe"></curriculum>
-    <application class="bg-stripe"></application>
-    <contact class="bg-stripe"></contact>
+    <requirements class="bg-stripe"></requirements>
+    <!-- <contact class="bg-stripe"></contact> -->
     <cs-footer></cs-footer>
   </div>
 </template>
@@ -32,7 +32,7 @@
   import Objectives from '@/components/Home/Objectives'
   import TrainingScheme from '@/components/Home/TrainingScheme'
   import Curriculum from '@/components/Home/Curriculum'
-  import Application from '@/components/Home/Application'
+  import Requirements from '@/components/Home/Requirements'
   import Contact from '@/components/Home/Contact'
   import Navbar from '@/components/Home/Navbar'
   import CsFooter from '@/components/Home/Footer'
@@ -43,7 +43,7 @@
       Objectives,
       TrainingScheme,
       Curriculum,
-      Application,
+      Requirements,
       Contact,
       Navbar,
       CsFooter

@@ -19,11 +19,11 @@
             <a class="scrollactive-item nav-link js-scroll-trigger" href="#curriculum" data-toggle="collapse" data-target=".navbar-collapse.show">หลักสูตร</a>
           </li>
           <li class="nav-item">
-            <a class="scrollactive-item nav-link js-scroll-trigger" href="#application" data-toggle="collapse" data-target=".navbar-collapse.show">APPLICATION</a>
+            <a class="scrollactive-item nav-link js-scroll-trigger" href="#requirements" data-toggle="collapse" data-target=".navbar-collapse.show">คุณสมบัติผู้สมัคร</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="scrollactive-item nav-link js-scroll-trigger" href="#contact" data-toggle="collapse" data-target=".navbar-collapse.show">CONTACT</a>
-          </li>
+          </li> -->
         </ul>
       </scrollactive>
     </div>
