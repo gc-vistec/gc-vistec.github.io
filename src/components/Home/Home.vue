@@ -7,6 +7,7 @@
           <div class="logos col-md-12">
             <img class="gc-logo" alt="PTTGC" src="../../assets/pttgc-logo.svg">
             <span class="logo-separator">|</span>
+            <div class="horizontal-logo-separator"><img src="../../assets/horizontal-separator.svg"></div>
             <img class="vistec-logo" alt="VISTEC" src="../../assets/vistec-logo-no-subtitle.svg">
           </div>
           <div class="col-md-12">
@@ -69,6 +70,7 @@
   } */
 
   .logo-separator {
+    /* visibility: visible; */
     font-size: 4.25rem;
     font-weight: 100;
     opacity: .75;
@@ -89,17 +91,35 @@
     margin-bottom: 1rem;
   }
 
+  .horizontal-logo-separator {
+    display: none;
+    margin-bottom: .5rem;
+  }
+
+  .horizontal-logo-separator img {
+    height: 1rem;
+  }
+
   .header-jumbotron h1 {
     font-size: 3rem;
   }
 
-  @media (min-width: 992px) {
-    .header-jumbotron {
+  @media (max-width: 992px) {
+    .logo-separator {
+      display: none;
+    }
+
+    .horizontal-logo-separator {
+      display: block;
+      height: 3rem;
+    }
+
+    /* .header-jumbotron {
       padding: 50px 20% 30px;
     }
     .header-jumbotron h1 {
       font-size: 5rem;
-    }
+    } */
   }
 
   .bg-stripe:nth-of-type(odd) {
