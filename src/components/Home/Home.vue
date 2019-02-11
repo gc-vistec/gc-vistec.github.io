@@ -4,14 +4,14 @@
     <div class="header-jumbotron text-center">
       <div class="container-logo text-center">
         <div class="row">
-          <div class="col-md-12">
-            <h1 class="material-icons md-48 text-white">
-                school
-            </h1>
+          <div class="logos col-md-12">
+            <img class="gc-logo" alt="PTTGC" src="../../assets/pttgc-logo.svg">
+            <span class="logo-separator">|</span>
+            <img class="vistec-logo" alt="VISTEC" src="../../assets/vistec-logo-no-subtitle.svg">
           </div>
           <div class="col-md-12">
-            <h1 class="text-white">
-              IST Research Internship 2019
+            <h1 class="">
+              lorem ipsum dolor sit amet
             </h1>
           </div>
         </div>
@@ -58,10 +58,35 @@
     font-weight: 600;
     height: 100vh;
     font-size: 1.25rem;
-    background-image: url('../../assets/bg-hero.jpg');
+    /* background-image: url('../../assets/bg-hero.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+  }
+
+  /* .logos {
+   line-height: 4rem;
+  } */
+
+  .logo-separator {
+    font-size: 4.25rem;
+    font-weight: 100;
+    opacity: .75;
+    margin: 0 .5rem;
+  }
+
+  .gc-logo {
+    height: 4rem;
+  }
+
+  .vistec-logo {
+    height: 4rem;
+    padding-top: .95rem;
+  }
+
+  .gc-logo, .vistec-logo {
+    margin-top: -1.5rem;
+    margin-bottom: 1rem;
   }
 
   .header-jumbotron h1 {
