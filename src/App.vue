@@ -17,8 +17,8 @@
 
 <style>
   #app {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
+    font-family: 'K2D', sans-serif;
+    /* font-weight: 600; */
     border-radius: 0 !important;
   }
 
