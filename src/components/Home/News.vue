@@ -1,0 +1,87 @@
+<template>
+  <section id="news">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mx-auto">
+          <h2>ข่าวสาร</h2>
+            <ul class="timeline" v-for="announcement in announcements" v-bind:key="announcement.title">
+              <li class="list-item-announcement">
+                <span class="announcement-title">{{announcement.title}}</span>
+                <span class="float-right announcement-datetime"><i class="fa fa-clock-o"></i> {{announcement.datetime}}</span>
+                <p class="announcement-content" v-html="announcement.content"></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </section>
+</template>
+<script>
+export default {
+  data () {
+    return {
+      announcements: [
+        {
+          title: 'โบรชัวร์ข้อมูล',
+          content: '<a href="http://dexsparkprogram.pttgcgroup.com/informationbrochure.pdf" target="_blank">ดูโบรชัวร์ <i class="fa fa-external-link"></a>',
+          datetime: '25 ก.พ.'
+        },
+        {
+          title: 'โปสเตอร์ประชาสัมพันธ์',
+          content: '<a href="' + require('../../assets/dex-spark-poster.jpg') + '">ดูโปสเตอร์ <i class="fa fa-external-link"></a>',
+          datetime: '25 ก.พ.'
+        }
+      ]
+    }
+  }
+}
+</script>
+<style scoped>
+  ul.timeline {
+    list-style-type: none;
+    position: relative;
+  }
+
+  ul.timeline:before {
+      content: ' ';
+      background: #d4d9df00;
+      display: inline-block;
+      position: absolute;
+      left: 29px;
+      width: 2px;
+      height: 100%;
+      z-index: 400;
+  }
+
+  ul.timeline > li {
+      margin: 20px 0;
+      padding-left: 20px;
+  }
+
+  ul.timeline > li:before {
+      content: ' ';
+      background: white;
+      display: inline-block;
+      position: absolute;
+      border-radius: 50%;
+      border: 10px solid #582e91;
+      margin-top: 6px;
+      left: 20px;
+      width: 20px;
+      height: 20px;
+      z-index: 400;
+  }
+
+  .announcement-datetime > i {
+    font-size: 80%;
+  }
+
+  .announcement-datetime {
+    margin-top: 7px;
+  }
+
+  .announcement-title {
+    font-size: 140%;
+    font-weight: 600;
+  }
+</style>

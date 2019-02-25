@@ -18,6 +18,7 @@
         </div>
       </div>
     </div>
+    <news class="bg-stripe"></news>
     <objectives class="bg-stripe"></objectives>
     <training-scheme class="bg-stripe"></training-scheme>
     <curriculum class="bg-stripe"></curriculum>
@@ -28,6 +29,7 @@
 </template>
 
 <script>
+  import News from '@/components/Home/News'
   import Objectives from '@/components/Home/Objectives'
   import TrainingScheme from '@/components/Home/TrainingScheme'
   import Curriculum from '@/components/Home/Curriculum'
@@ -39,6 +41,7 @@
     name: 'Home',
     methods: {},
     components: {
+      News,
       Objectives,
       TrainingScheme,
       Curriculum,
