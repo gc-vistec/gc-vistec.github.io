@@ -10,13 +10,16 @@
             <a class="scrollactive-item nav-link js-scroll-trigger" href="#page-top" data-toggle="collapse" data-target="navbar-collapse.show"><i class="fa fa-arrow-up"></i></a>
           </li>
           <li class="nav-item">
+            <a class="scrollactive-item nav-link js-scroll-trigger" href="#news" data-toggle="collapse" data-target=".navbar-collapse.show">ข่าวสาร</a>
+          </li>
+          <li class="nav-item">
             <a class="scrollactive-item nav-link js-scroll-trigger" href="#objectives" data-toggle="collapse" data-target=".navbar-collapse.show">จุดประสงค์</a>
           </li>
           <li class="nav-item">
-            <a class="scrollactive-item nav-link js-scroll-trigger" href="#training-scheme" data-toggle="collapse" data-target=".navbar-collapse.show">รูปแบบการฝึกอบรม</a>
+            <a class="scrollactive-item nav-link js-scroll-trigger" href="#training-scheme" data-toggle="collapse" data-target=".navbar-collapse.show">รูปแบบการเรียนการสอน</a>
           </li>
           <li class="nav-item">
-            <a class="scrollactive-item nav-link js-scroll-trigger" href="#curriculum" data-toggle="collapse" data-target=".navbar-collapse.show">หลักสูตร</a>
+            <a class="scrollactive-item nav-link js-scroll-trigger" href="#curriculum" data-toggle="collapse" data-target=".navbar-collapse.show">หลักสูตรและการแบ่งระดับผู้เรียน</a>
           </li>
           <li class="nav-item">
             <a class="scrollactive-item nav-link js-scroll-trigger" href="#requirements" data-toggle="collapse" data-target=".navbar-collapse.show">คุณสมบัติผู้สมัคร</a>
