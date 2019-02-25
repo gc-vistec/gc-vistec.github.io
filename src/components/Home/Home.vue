@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home text-justify">
     <navbar></navbar>
     <div class="header-jumbotron text-center">
       <div class="container-logo text-center">
