@@ -25,7 +25,7 @@
             <a class="scrollactive-item nav-link js-scroll-trigger" href="#application" data-toggle="collapse" data-target=".navbar-collapse.show">สมัคร</a>
           </li>
           <li class="nav-item">
-            <a class="scrollactive-item nav-link js-scroll-trigger" href="#contact" data-toggle="collapse" data-target=".navbar-collapse.show">มีคำถาม?</a>
+            <a class="scrollactive-item nav-link js-scroll-trigger" href="#contact" data-toggle="collapse" data-target=".navbar-collapse.show">มีคำถาม <i class="fa fa-question-circle"></i></a>
           </li>
         </ul>
       </scrollactive>
