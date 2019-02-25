@@ -22,6 +22,11 @@ export default {
     return {
       announcements: [
         {
+          title: 'Course Syllabi และคำถามที่พบบ่อย',
+          content: 'เราได้เพิ่ม <a href="#curriculum">Course Syllabi</a> และ <a href="#contact">คำถามที่พบบ่อย</a>เข้ามาในเว็บไซต์แล้ว',
+          datetime: '25 ก.พ.'
+        },
+        {
           title: 'การสมัครเข้าร่วมโครงการ',
           content: 'เราได้อัพเดตเว็บไซต์ของเราเพื่อเพิ่มช่องทางในการรับสมัครแล้ว ลองดูในส่วนของ<a href="#application">การสมัคร</a>เพื่อสมัครเข้าร่วมโครงการได้เลย',
           datetime: '25 ก.พ.'
