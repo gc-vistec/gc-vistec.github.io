@@ -23,7 +23,7 @@
           </ul>
         </div>
         <div class="col-md-12 text-right">
-          <h2 class="font-weight-bold"><a href="https://goo.gl/forms/gyV9bOPdw0UVpcPy1">สมัครเลย <i class="fa fa-external-link"></i></a></h2>
+          <h2 class="font-weight-bold"><a href="https://goo.gl/forms/75UODxiYKrRrp1XJ2">สมัครเลย <i class="fa fa-external-link"></i></a></h2>
         </div>
       </div>
     </div>
