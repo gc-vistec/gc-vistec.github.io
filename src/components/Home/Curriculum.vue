@@ -50,9 +50,9 @@
               <b>Level 1.3</b> ผู้เรียนสามารถเลือกเรียนในสาขาที่สนใจ ได้ 2 สาขา จาก 4 สาขา ดังนี้
             </li>
           </ul>
-          <div class="table-responsive-md text-left">
+          <div id="curriculum-table" class="table-responsive-md text-left">
             <table class="table table-sm">
-              <thead><tr><th>Track</th><th>ทักษะที่จะได้เรียนรู้</th><th>ตัวอย่างตำแหน่งงาน</th></tr></thead>
+              <thead class="font-weight-bold"><tr><th>Track</th><th>ทักษะที่จะได้เรียนรู้</th><th>ตัวอย่างตำแหน่งงาน</th></tr></thead>
               <tbody>
                 <tr>
                   <th scope="row">ML/AI and Data Mining</th>
@@ -76,37 +76,37 @@
                 </tr>
               </tbody>
             </table>
-            <p>
-              ผู้เรียนจะเข้าเรียนใน Level ที่ถูกกำหนดจากการวัดผล โดยผู้เรียนที่ได้ Level สูงไม่จำเป็นต้องเข้าเรียนภาคทฤษฎี (Intensive Class) ใน Level ที่ต่ำกว่า แต่ต้องมาเข้าร่วมทำโปรเจกต์ในทุก Level
-            </p>
-            <h3>กำหนดการ</h3>
-            <ul>
-              <li>
-                ผู้สมัครทุกคนจะต้องทำ Pre-screen test เพื่อทดสอบทักษะเบื้องต้นเกี่ยวกับความเข้าใจด้าน Data Science และโอกาสที่เอาไปประยุกต์ใช้งานได้จริง เปิดรับสมัครผ่านเว็บไซต์ วันที่ 26 กุมภาพันธ์- 15 มีนาคม 2562
-              </li>
-              <li>
-                ประกาศผลผู้ผ่าน Pre-screen – 1 เมษายน 2562 ผ่านทางเว็บไซต์
-              </li>
-              <li>
-                เรียนหลักสูตรปรับความรู้พื้นฐาน (Level 0) และวัดระดับ (Placement test) เพื่อแบ่งผู้เรียนตามความเหมาะสม – ช่วงเดือนเมษายน 2562
-              </li>
-              <li>
-                ประกาศผลวัดระดับ (Placement test) – ปลายเดือนเมษายน 2562
-              </li>
-              <li>
-                เรียนหลักสูตร Entry-beginner (Level 1.1) – เดือนพฤษภาคม-กรกฎาคม 2562
-              </li>
-              <li>
-                เรียนหลักสูตร Entry-intermediate (Level 1.2) – เดือนสิงหาคม-ตุลาคม 2562
-              </li>
-              <li>
-                เรียนหลักสูตร Entry-advance (Level 1.3) – เดือนตุลาคม-ธันวาคม 2562
-              </li>
-              <li>
-                ประกาศผลการเรียน – เดือนมกราคม 2563
-              </li>
-            </ul>
           </div>
+          <p>
+            ผู้เรียนจะเข้าเรียนใน Level ที่ถูกกำหนดจากการวัดผล โดยผู้เรียนที่ได้ Level สูงไม่จำเป็นต้องเข้าเรียนภาคทฤษฎี (Intensive Class) ใน Level ที่ต่ำกว่า แต่ต้องมาเข้าร่วมทำโปรเจกต์ในทุก Level
+          </p>
+          <h3>กำหนดการ</h3>
+          <ul>
+            <li>
+              ผู้สมัครทุกคนจะต้องทำ Pre-screen test เพื่อทดสอบทักษะเบื้องต้นเกี่ยวกับความเข้าใจด้าน Data Science และโอกาสที่เอาไปประยุกต์ใช้งานได้จริง เปิดรับสมัครผ่านเว็บไซต์ วันที่ 26 กุมภาพันธ์- 15 มีนาคม 2562
+            </li>
+            <li>
+              ประกาศผลผู้ผ่าน Pre-screen – 1 เมษายน 2562 ผ่านทางเว็บไซต์
+            </li>
+            <li>
+              เรียนหลักสูตรปรับความรู้พื้นฐาน (Level 0) และวัดระดับ (Placement test) เพื่อแบ่งผู้เรียนตามความเหมาะสม – ช่วงเดือนเมษายน 2562
+            </li>
+            <li>
+              ประกาศผลวัดระดับ (Placement test) – ปลายเดือนเมษายน 2562
+            </li>
+            <li>
+              เรียนหลักสูตร Entry-beginner (Level 1.1) – เดือนพฤษภาคม-กรกฎาคม 2562
+            </li>
+            <li>
+              เรียนหลักสูตร Entry-intermediate (Level 1.2) – เดือนสิงหาคม-ตุลาคม 2562
+            </li>
+            <li>
+              เรียนหลักสูตร Entry-advance (Level 1.3) – เดือนตุลาคม-ธันวาคม 2562
+            </li>
+            <li>
+              ประกาศผลการเรียน – เดือนมกราคม 2563
+            </li>
+          </ul>
 
           <!-- Modal -->
           <div class="modal fade" id="courseSyllabusModal" tabindex="-1" role="dialog" aria-labelledby="courseSyllabusModalLabel" aria-hidden="true">
@@ -703,3 +703,9 @@
     </div>
   </section>
 </template>
+
+<style scoped>
+  #curriculum-table {
+    background: rgba(0, 0, 0, .05);
+  }
+</style>

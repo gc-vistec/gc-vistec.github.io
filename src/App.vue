@@ -1,6 +1,6 @@
 
 <template>
-  <div id="app">
+  <div id="app" class="text-justfy">
     <router-view></router-view>
   </div>
 </template>
@@ -48,5 +48,9 @@
   .form-group.required .control-label:after { 
     content: " *";
     color: red;
+  }
+
+  .text-justify {
+    text-justify: inter-cluster;
   }
 </style>
