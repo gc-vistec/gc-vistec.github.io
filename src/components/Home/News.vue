@@ -22,6 +22,11 @@ export default {
     return {
       announcements: [
         {
+          title: 'การสมัครเข้าร่วมโครงการ',
+          content: 'เราได้อัพเดตเว็บไซต์ของเราเพื่อเพิ่มช่องทางในการรับสมัครแล้ว ลองดูในส่วนของ<a class="scrollactive-item js-scroll-trigger" href="#application">การสมัคร</a>เพื่อสมัครเข้าร่วมโครงการได้เลย',
+          datetime: '25 ก.พ.'
+        },
+        {
           title: 'โบรชัวร์ข้อมูล',
           content: '<a href="/static/informationbrochure.pdf" target="_blank">ดูโบรชัวร์ <i class="fa fa-external-link"></a>',
           datetime: '25 ก.พ.'

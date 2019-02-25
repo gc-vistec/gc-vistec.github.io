@@ -5,9 +5,6 @@
         <div class="col-md-12">
           <h2>สมัครเข้าร่วม</h2>
         </div>
-        <!-- <div class="col-md-6 text-right">
-
-        </div> -->
         <div class="col-lg-12 mx-auto lead">
           <h3>คุณสมบัติของผู้สมัคร</h3>
           <ul>
@@ -23,7 +20,7 @@
           </ul>
         </div>
         <div class="col-md-12 text-right">
-          <h2 class="font-weight-bold"><a href="https://goo.gl/forms/75UODxiYKrRrp1XJ2">สมัครเลย <i class="fa fa-external-link"></i></a></h2>
+          <h2 class="font-weight-bold"><a href="https://goo.gl/forms/75UODxiYKrRrp1XJ2" target="_blank">สมัครเลย <i class="fa fa-external-link"></i></a></h2>
         </div>
       </div>
     </div>
