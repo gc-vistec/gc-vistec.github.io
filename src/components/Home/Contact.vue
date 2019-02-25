@@ -3,14 +3,13 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 mx-auto">
-          <h2>ติดต่อเรา</h2>
+          <h2>ติดต่อ</h2>
         </div>
         <div class="col-lg-12 mt-2">
-          If you have any concern or question, please do not hesitate to drop us an email at
+          ติดต่อสอบถามข้อมูลเพิ่มเติมได้ที่
           <h5 class="font-weight-bold">
-            <a href="mailto:ist-fr@vistec.ac.th">
-              <i class="fa fa-envelope-square"></i>
-              ist-fr@vistec.ac.th
+            <a href="http://line.me/ti/p/@dEXInfo">
+              <img src="../../assets/line-icon.svg" style="height: 1.4rem;"> @dEXInfo
             </a>
           </h5>
         </div>

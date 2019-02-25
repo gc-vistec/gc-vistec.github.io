@@ -23,7 +23,7 @@
     <training-scheme class="bg-stripe"></training-scheme>
     <curriculum class="bg-stripe"></curriculum>
     <application class="bg-stripe"></application>
-    <!-- <contact class="bg-stripe"></contact> -->
+    <contact class="bg-stripe"></contact>
     <cs-footer></cs-footer>
   </div>
 </template>
