@@ -1,14 +1,15 @@
 <template>
-  <section id="requirements" class="lead">
+  <section id="application" class="lead">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
-          <h2>คุณสมบัติของผู้สมัคร</h2>
+        <div class="col-md-12">
+          <h2>สมัครเข้าร่วม</h2>
         </div>
-        <div class="col-md-6 text-right">
-        </div>
+        <!-- <div class="col-md-6 text-right">
+
+        </div> -->
         <div class="col-lg-12 mx-auto lead">
-          <!-- <h3>Requirements</h3> -->
+          <h3>คุณสมบัติของผู้สมัคร</h3>
           <ul>
             <li>
               เป็นพนักงาน GC หรือพนักงานในกลุ่มปตท. ระดับผู้จัดการส่วนลงมา และต้องได้รับอนุญาตจากผู้บังคับบัญชา
@@ -21,9 +22,9 @@
             </li>
           </ul>
         </div>
-        <!-- <div class="col-md-12 text-right">
-          <h2 class="font-weight-bold"><a href="https://goo.gl/forms/gyV9bOPdw0UVpcPy1">Apply now <i class="fa fa-external-link"></i></a></h2>
-        </div> -->
+        <div class="col-md-12 text-right">
+          <h2 class="font-weight-bold"><a href="https://goo.gl/forms/gyV9bOPdw0UVpcPy1">สมัครเลย <i class="fa fa-external-link"></i></a></h2>
+        </div>
       </div>
     </div>
   </section>

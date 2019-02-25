@@ -22,10 +22,10 @@
             <a class="scrollactive-item nav-link js-scroll-trigger" href="#curriculum" data-toggle="collapse" data-target=".navbar-collapse.show">หลักสูตรและการแบ่งระดับผู้เรียน</a>
           </li>
           <li class="nav-item">
-            <a class="scrollactive-item nav-link js-scroll-trigger" href="#requirements" data-toggle="collapse" data-target=".navbar-collapse.show">คุณสมบัติผู้สมัคร</a>
+            <a class="scrollactive-item nav-link js-scroll-trigger" href="#application" data-toggle="collapse" data-target=".navbar-collapse.show">สมัคร</a>
           </li>
           <!-- <li class="nav-item">
-            <a class="scrollactive-item nav-link js-scroll-trigger" href="#contact" data-toggle="collapse" data-target=".navbar-collapse.show">CONTACT</a>
+            <a class="scrollactive-item nav-link js-scroll-trigger" href="#contact" data-toggle="collapse" data-target=".navbar-collapse.show">ติดต่อ</a>
           </li> -->
         </ul>
       </scrollactive>
