@@ -7,7 +7,7 @@
         </div>
         <div class="col-lg-8 mt-2">
           <h3>
-            คำถามที่พบบ่อย
+            มีข้อสงสัย?
           </h3>
           <p>
             ลองอ่านข้อมูลในคำถามที่พบบ่อยดูก่อน
@@ -201,9 +201,6 @@
                     </p>
                   </div>
                 </div>
-                <!-- <div class="modal-footer">
-                  <a href="static/course-syllabi.pdf" target="_blank">Download as PDF <i class="fa fa-download"></i></a>
-                </div> -->
               </div>
             </div>
           </div>

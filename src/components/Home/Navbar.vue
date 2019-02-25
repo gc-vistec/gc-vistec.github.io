@@ -29,6 +29,11 @@
           </li>
         </ul>
       </scrollactive>
+      <div class="d-flex flex-row order-2 order-lg-3">
+        <ul class="navbar-nav flex-row">
+          <li class="nav-item"><a class="nav-link" href="http://dexsparkprogram.pttgcgroup.com/moodle">Moodle <i class="fa fa-book"></i></a></li>
+        </ul>
+      </div>
     </div>
   </nav>
 </template>
