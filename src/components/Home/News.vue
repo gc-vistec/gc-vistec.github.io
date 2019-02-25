@@ -23,12 +23,12 @@ export default {
       announcements: [
         {
           title: 'โบรชัวร์ข้อมูล',
-          content: '<a href="http://dexsparkprogram.pttgcgroup.com/informationbrochure.pdf" target="_blank">ดูโบรชัวร์ <i class="fa fa-external-link"></a>',
+          content: '<a href="/static/informationbrochure.pdf" target="_blank">ดูโบรชัวร์ <i class="fa fa-external-link"></a>',
           datetime: '25 ก.พ.'
         },
         {
           title: 'โปสเตอร์ประชาสัมพันธ์',
-          content: '<a href="' + require('../../assets/dex-spark-poster.jpg') + '">ดูโปสเตอร์ <i class="fa fa-external-link"></a>',
+          content: '<a href="' + require('../../assets/dex-spark-poster.jpg') + '" target="_blank">ดูโปสเตอร์ <i class="fa fa-external-link"></a>',
           datetime: '25 ก.พ.'
         }
       ]
