@@ -6,10 +6,8 @@ import router from './router'
 import 'font-awesome/css/font-awesome.css'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
-import VeeValidate from 'vee-validate'
 import VueScrollactive from 'vue-scrollactive'
 
-Vue.use(VeeValidate)
 Vue.use(VueAxios, axios)
 Vue.use(VueScrollactive)
 Vue.config.productionTip = false
