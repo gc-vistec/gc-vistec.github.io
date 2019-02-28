@@ -31,7 +31,7 @@
       </scrollactive>
       <div class="d-flex flex-row order-2 order-lg-3">
         <ul class="navbar-nav flex-row">
-          <li class="nav-item"><a class="nav-link" href="http://dexsparkprogram.pttgcgroup.com/moodle">Moodle <i class="fas fa-chalkboard-teacher"></i></a></li>
+          <li class="nav-item"><a class="nav-link" href="http://dexsparkprogram.pttgcgroup.com/moodle" target="_blank">Moodle <i class="fas fa-chalkboard-teacher"></i></a></li>
         </ul>
       </div>
     </div>
