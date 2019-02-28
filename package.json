@@ -1,8 +1,8 @@
 {
   "name": "website",
-  "version": "1.0.0",
-  "description": "Scad lab",
-  "author": "Norawit Urailetprasert",
+  "version": "1.4.0",
+  "description": "GC-VISTEC dEX|SPARK Program",
+  "author": "Benjapol Worakan",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -15,7 +15,6 @@
     "axios": "^0.16.2",
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.0-rc.13",
-    "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
     "jquery.easing": "^1.4.1",
     "json2csv": "^3.11.0",
