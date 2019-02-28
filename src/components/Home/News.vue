@@ -7,7 +7,7 @@
             <ul class="timeline" v-for="announcement in announcements" v-bind:key="announcement.title">
               <li class="list-item-announcement">
                 <span class="announcement-title">{{announcement.title}}</span>
-                <span class="float-right announcement-datetime"><i class="fa fa-clock-o"></i> {{announcement.datetime}}</span>
+                <span class="float-right announcement-datetime"><i class="fas fa-clock"></i> {{announcement.datetime}}</span>
                 <p class="announcement-content" v-html="announcement.content"></p>
               </li>
             </ul>
@@ -33,12 +33,12 @@ export default {
         },
         {
           title: 'โบรชัวร์ข้อมูล',
-          content: '<a href="/static/informationbrochure.pdf" target="_blank">ดูโบรชัวร์ <i class="fa fa-external-link"></a>',
+          content: '<a href="/static/informationbrochure.pdf" target="_blank">ดูโบรชัวร์ <i class="fas fa-external-link-alt"></i></a>',
           datetime: '25 ก.พ.'
         },
         {
           title: 'โปสเตอร์ประชาสัมพันธ์',
-          content: '<a href="' + require('../../assets/dex-spark-poster.jpg') + '" target="_blank">ดูโปสเตอร์ <i class="fa fa-external-link"></a>',
+          content: '<a href="' + require('../../assets/dex-spark-poster.jpg') + '" target="_blank">ดูโปสเตอร์ <i class="fas fa-external-link-alt"></i></a>',
           datetime: '25 ก.พ.'
         }
       ]

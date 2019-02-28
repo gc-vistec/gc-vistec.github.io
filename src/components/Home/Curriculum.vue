@@ -8,7 +8,7 @@
         <div class="col-md-4 text-right">
           <h2 class="font-weight-bold">
             <a href="#" data-toggle="modal" data-target="#courseSyllabusModal">
-              Course Syllabi <i class="fa fa-file-text-o"></i>
+              Course Syllabi <i class="fas fa-file-alt"></i>
             </a>
           </h2>
         </div>

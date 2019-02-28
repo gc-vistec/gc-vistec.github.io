@@ -16,7 +16,7 @@
         <div class="col-lg-4 mt-2 text-right">
           <h2 class="font-weight-bold">
             <a href="#" data-toggle="modal" data-target="#faqModal">
-              FAQ <i class="fa fa-file-text-o"></i>
+              FAQ <i class="fas fa-file-alt"></i>
             </a>
           </h2>
 
@@ -216,7 +216,7 @@
         <div class="col-lg-4 mt-2 text-right">
           <h2 class="font-weight-bold">
             <a href="http://line.me/ti/p/@dEXInfo" target="_blank">
-              @dEXInfo <img src="../../assets/line-icon.svg" style="height: 1.8rem;">
+              @dEXInfo <i class="fab fa-line"></i>
             </a>
           </h2>
         </div>
