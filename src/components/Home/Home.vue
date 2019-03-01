@@ -72,6 +72,10 @@
       rgba(230, 50, 83, .4) 100%);
   }
 
+  .container-logo {
+    min-width: 100%;
+  }
+
   .logos {
     margin-bottom: 1rem;
   }
