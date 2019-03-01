@@ -14,7 +14,7 @@
         </div>
         <div class="col-md-12 mx-auto lead">
           <p>
-            หลักสูตรนี้เน้นการปูพื้นฐาน Data Science (Level 1&colon; Entry-Level) โดยผู้เรียนที่ผ่านการ Pre-screen ทุกคน จะได้เรียนปรับพื้นฐานใน Level 0 ร่วมกัน ก่อนวัดระดับและแยกผู้เรียนออกเป็น 3 กลุ่ม
+            หลักสูตรนี้เน้นการปูพื้นฐาน Data Science (Level 1&colon; Entry-Level) โดยผู้เรียนที่ผ่าน Pre-screening ทุกคน จะได้เรียนปรับพื้นฐานใน Level 0 ร่วมกัน ก่อนวัดระดับและแยกผู้เรียนออกเป็น 3 กลุ่ม
           </p>
           
           <center>
