@@ -35,7 +35,7 @@
                     หมวดสถาบันและหลักสูตรการเรียน 
                   </h2>
                   <h4>
-                    VISTEC คือมหาวิทยาลัยเกี่ยวกับอะไร คณะผู้สอนคือใคร (บอกประวัติของอาจารย์แต่ละท่าน) 
+                    VISTEC คือมหาวิทยาลัยเกี่ยวกับอะไร คณะผู้สอนคือใคร 
                   </h4>
                   <p>
                     สถาบันวิทยสิริเมธี (VISTEC) เป็นสถาบันที่มุ่งเน้นผลิตงานวิจัยและสร้างบุคลากรวิจัยทางด้านวิทยาศาตร์และเทคโนโลยี ปัจจุบันเปิดสอนในระดับปริญญาโทและเอก ใน 4 สาขาวิชา รวมถึงสาขา Information Science and Technology ด้วย 
@@ -94,7 +94,7 @@
                       เรียนจบแล้วได้รับใบประกาศ / วุฒิบัตรจาก VISTEC หรือไม่ 
                     </h4>
                     <p>
-                      หลักสูตรนี้ไม่มีใบประกาศหรือวุฒิบัตรให้ แต่สำหรับพนักงาน GC จะได้รับการบันทึกในประวัติว่าเคยผ่านการเรียนหลักสูตรนี้ เพื่อประโยชน์ในการ Rotate หรือ ปรับประดับในอนาคต และสำหรับพนักงานในกลุ่มปตท. ทาง VISTEC จะแจ้งผลการอบรมกลับไปที่บริษัทต้นสังกัดเพื่อบันทึกประวัติ ทั้งนี้จะขึ้นอยู่กับนโยบายของบริษัทต้นสังกัดด้วย   
+                      หลักสูตรนี้ไม่มีใบประกาศหรือวุฒิบัตรให้ แต่สำหรับพนักงาน GC จะได้รับการบันทึกในประวัติว่าเคยผ่านการเรียนหลักสูตรนี้ เพื่อประโยชน์ในการ Rotate หรือ ปรับระดับในอนาคต และสำหรับพนักงานในกลุ่มปตท. ทาง VISTEC จะแจ้งผลการอบรมกลับไปที่บริษัทต้นสังกัดเพื่อบันทึกประวัติ ทั้งนี้จะขึ้นอยู่กับนโยบายของบริษัทต้นสังกัดด้วย   
                     </p>
 
                     <h2 class="mt-5">
@@ -169,12 +169,6 @@
                     </p>
                       
                     <h4>
-                      หากไม่สะดวกเรียนในรอบนี้จะมีเปิดรอบต่อไปหรือไม่ 
-                    </h4>
-                    <p>
-                      หลักสูตรนี้เป็นหลักสูตรเฉพาะจึงยังไม่มีนโยบายที่จะเปิดเพิ่มเติม  
-                    </p>
-                    <h4>
                       มีหลักสูตรเรียนออนไลน์หรือไม่ 
                     </h4>
                     <p>
@@ -185,9 +179,9 @@
                       แผนที่ VISTEC / RO / ENCO (ถ้ามีเรียนที่ ENCO) 
                     </h4>
                     <p>
-                      <span class="font-weight-bold">VISTEC:</span> <a href="https://goo.gl/maps/mCaPbcqBZUJ2" target="_blank">เปิดด้วย Google Maps <i class="fa fa-external-link"></i></a> <br>
-                      <span class="font-weight-bold">RO:</span> <a href="https://goo.gl/maps/1SJAs31VWCv" target="_blank">เปิดด้วย Google Maps <i class="fa fa-external-link"></i></a> <br>
-                      <span class="font-weight-bold">ENCO:</span> <a href="https://goo.gl/maps/kPy26aHvfLH2" target="_blank">เปิดด้วย Google Maps <i class="fa fa-external-link"></i></a> 
+                      <span class="font-weight-bold">VISTEC:</span> <a href="https://goo.gl/maps/mCaPbcqBZUJ2" target="_blank">เปิดด้วย Google Maps <i class="fas fa-external-link-alt"></i></a> <br>
+                      <span class="font-weight-bold">RO:</span> <a href="https://goo.gl/maps/1SJAs31VWCv" target="_blank">เปิดด้วย Google Maps <i class="fas fa-external-link-alt"></i></a> <br>
+                      <span class="font-weight-bold">ENCO:</span> <a href="https://goo.gl/maps/kPy26aHvfLH2" target="_blank">เปิดด้วย Google Maps <i class="fas fa-external-link-alt"></i></a> 
                     </p>
                     
                     <h4>
@@ -195,9 +189,9 @@
                     </h4>
                     <p>
                       ศึกษาข้อมูลเพิ่มเติมได้ที่ <br>
-                      <span class="font-weight-bold">Website:</span> <a href="http://www.dexsparkprogram.pttgcgroup.com" target="_blank">www.dexsparkprogram.pttgcgroup.com <i class="fa fa-external-link"></i></a> <br>
-                      <span class="font-weight-bold">Line ID:</span> <a href="http://line.me/ti/p/@dEXInfo" target="_blank">@dexinfo <i class="fa fa-external-link"></i></a> <br>
-                      <span class="font-weight-bold">Email:</span> <a href="mailto:dexperience@pttgcgroup.com">dexperience@pttgcgroup.com</a>
+                      <span class="font-weight-bold">Website:</span> <a href="http://www.dexsparkprogram.pttgcgroup.com" target="_blank">www.dexsparkprogram.pttgcgroup.com <i class="fas fa-external-link-alt"></i></a> <br>
+                      <span class="font-weight-bold">Line ID:</span> <a href="http://line.me/ti/p/@dEXInfo" target="_blank">@dexinfo <i class="fas fa-external-link-alt"></i></a> <br>
+                      <span class="font-weight-bold">Email:</span> <a href="mailto:dexperience@pttgcgroup.com">dexperience@pttgcgroup.com <i class="fas fa-envelope-square"></i></a>
                     </p>
                   </div>
                 </div>
