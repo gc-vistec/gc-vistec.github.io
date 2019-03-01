@@ -8,22 +8,8 @@
         <div class="col-md-6 text-right">
         </div>
         <div class="col-lg-12 mx-auto lead">
-          <!-- <h3>Requirements</h3> -->
-          ตามวิสัยทัศน์ขององค์กรที่ต้องการเป็นผู้นำด้าน Technological Innovation หลักสูตรนี้จึงมีขึ้นเพื่อพัฒนาพนักงาน GC Group และ PTT Group ให้สามารถประยุกต์ความรู้ด้าน Data Science มาใช้ในการทำงานได้
-          <!-- <br><br> -->
-          <!-- <h3>จุดเด่น</h3>
-          <ul>
-            <li>
-              <i>มากกว่าการเรียนในห้อง</i> ด้วยการผสมผสานระหว่างการเรียนการสอนในห้องเรียน การทำ <b>Project</b> และการเรียนรู้จากผู้เชี่ยวชาญในสายงาน
-            </li>
-            <li>
-              <i>เห็นผลอย่างรวดเร็ว</i> จากการได้ลองฝึกปฏิบัติจริง
-            </li>
-          </ul> -->
+          ตามวิสัยทัศน์ขององค์กรที่ต้องการเป็นผู้นำด้าน Technological Innovation หลักสูตรนี้จึงมีขึ้นเพื่อพัฒนาพนักงาน GC และ PTT Group ให้สามารถประยุกต์ความรู้ด้าน Data Science มาใช้ในการทำงานได้
         </div>
-        <!-- <div class="col-md-12 text-right">
-          <h2 class="font-weight-bold"><a href="https://goo.gl/forms/gyV9bOPdw0UVpcPy1">Apply now <i class="fa fa-external-link"></i></a></h2>
-        </div> -->
       </div>
     </div>
   </section>
