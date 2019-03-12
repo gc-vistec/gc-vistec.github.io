@@ -37,8 +37,8 @@ export default {
           datetime: '25 ก.พ.'
         },
         {
-          title: 'โปสเตอร์ประชาสัมพันธ์',
-          content: '<a href="' + require('../../assets/dex-spark-poster.jpg') + '" target="_blank">ดูโปสเตอร์ <i class="fas fa-external-link-alt"></i></a>',
+          title: 'งานเปิดตัวโครงการ',
+          content: '<a href="' + require('../../assets/dex-spark-poster.jpg') + '" target="_blank">ดูโปสเตอร์ <i class="fas fa-external-link-alt"></i></a> <a class="ml-2" href="https://vistec-my.sharepoint.com/:v:/g/personal/pasita_c_vistec_ac_th/Ee0mdEChl95JqknMvTSIFGQBUWyYXanrHheUr2ts2HO3SQ?e=fySbrt" target="_blank">ดูวิดีโอ <i class="fas fa-play-circle"></i></a>',
           datetime: '25 ก.พ.'
         }
       ]
