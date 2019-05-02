@@ -679,9 +679,6 @@
             </div>
           </div>
         </div>
-        <!-- <div class="col-md-12 text-right">
-          <h2 class="font-weight-bold"><a href="https://goo.gl/forms/gyV9bOPdw0UVpcPy1">Apply now <i class="fa fa-external-link"></i></a></h2>
-        </div> -->
       </div>
     </div>
   </section>
