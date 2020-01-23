@@ -22,11 +22,6 @@ export default {
     return {
       announcements: [
         {
-          title: 'ผลงาน Use Case ของผู้เรียน Volume 1',
-          content: 'ท่านสามารถรับชมผลงาน Use Case ของผู้เรียน Volume 1 ได้<a href="/static/newsletter-17012020.pdf" target="_blank">ที่นี่ <i class="fas fa-external-link-alt"></i></a>',
-          datetime: '19 ม.ค. 2563'
-        },
-        {
           title: 'การสมัครเข้าร่วมโครงการ',
           content: 'เราได้อัพเดตเว็บไซต์ของเราเพื่อเพิ่มช่องทางในการรับสมัครแล้ว ลองดูในส่วนของ<a href="#application">การสมัคร</a>เพื่อสมัครเข้าร่วมโครงการได้เลย',
           datetime: '25 ก.พ. 2562'
